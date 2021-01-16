@@ -132,4 +132,5 @@ var queen = {
       queen.position.y = 0;
       p1.innerHTML = "Queens current position =>" + board[queen.position.x][queen.position.y];
       console.log("Queen moved to square one");
+      document.getElementById("position").value = "";
   }
